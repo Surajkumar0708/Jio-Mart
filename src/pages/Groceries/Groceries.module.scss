@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.breadcrumb a {
+  font-family: "JioType", helvetica, arial, sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  color: #0c5273;
+}
+
+.banner {
+  margin-bottom: 20px;
+  width: 88%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.categoryList {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 60px;
+  background-color: white;
+  padding: 16px;
+  font-family: "JioType", helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.08px;
+  line-height: 1.5;
+  color: #141414;
+}
+.categoryList h2 {
+  font-family: "JioType", helvetica, arial, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.72px;
+  line-height: 1;
+}
+.selectContent {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "JioType", helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.07px;
+  line-height: 1.4285714286;
+}
+
+.categoryList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categoryList li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.products h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.productGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
